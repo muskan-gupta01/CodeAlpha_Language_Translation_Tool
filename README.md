@@ -100,7 +100,6 @@ streamlit run app.py
 **Muskan Gupta**
 
 GitHub: https://github.com/muskan-gupta01
-
 ---
 
 ## 📜 License
