@@ -1,23 +1,24 @@
 # 🌍 AI Language Translation Tool
 
-A simple and interactive Language Translation Tool built using **Python**, **Streamlit**, and **Google Translator API (deep-translator)**. This application allows users to translate text between multiple languages with a clean and user-friendly interface.
+An AI-powered Language Translation Tool built using **Python**, **Streamlit**, and **deep-translator (Google Translator API)**. The application provides fast and accurate text translation across multiple languages through a clean, interactive, and user-friendly interface.
 
 ---
 
 ## 📌 Features
 
-- 🌍 Translate text between multiple languages
-- 📝 User-friendly text input
+- 🌍 Translate text into multiple languages
+- 📝 Simple and intuitive user interface
 - 🔄 Source and target language selection
-- ⏳ Loading spinner during translation
+- ⚡ Fast translation using Google Translator API
 - 📋 Copy translated text to clipboard
 - 📥 Download translated text as a `.txt` file
-- ⚠️ Error handling for translation failures
 - 📊 Character counter
+- ⏳ Loading spinner during translation
+- ⚠️ Graceful error handling for invalid inputs or network issues
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - Python
 - Streamlit
@@ -28,13 +29,16 @@ A simple and interactive Language Translation Tool built using **Python**, **Str
 
 ## 📂 Project Structure
 
-```
-CodeAlpha_Language_Translation_Tool/
+```text
+Language_Translation_Tool/
 │── app.py
 │── requirements.txt
 │── README.md
 │── .gitignore
-│── screenshots/
+└── screenshots/
+    │── home.png
+    │── translate.png
+    └── other_language.png
 ```
 
 ---
@@ -44,16 +48,16 @@ CodeAlpha_Language_Translation_Tool/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/muskan-gupta01/CodeAlpha_Language_Translation_Tool.git
+git clone https://github.com/muskan-gupta01/Language_Translation_Tool.git
 ```
 
-### Move into the project folder
+### Navigate to the project directory
 
 ```bash
-cd CodeAlpha_Language_Translation_Tool
+cd Language_Translation_Tool
 ```
 
-### Install dependencies
+### Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -73,35 +77,42 @@ streamlit run app.py
 
 ![Home Screen](screenshots/home.png)
 
----
-
 ### Translation Result
 
 ![Translation Result](screenshots/translate.png)
 
----
-
-### Another Language Translation
+### Multi-Language Translation
 
 ![Other Language](screenshots/other_language.png)
 
-## 📈 Future Improvements
+---
 
-- Support more languages
-- Voice input
-- Text-to-Speech
-- Translation history
-- Dark mode
+## 📈 Future Enhancements
+
+- 🎤 Voice input support
+- 🔊 Text-to-Speech functionality
+- 🕒 Translation history
+- ❤️ Favorite translations
+- 🌙 Dark mode
+- 🌐 Automatic language detection
 
 ---
 
-## 👩‍💻 Author
+## 👨‍💻 Author
 
 **Muskan Gupta**
 
-GitHub: https://github.com/muskan-gupta01
+- GitHub: https://github.com/muskan-gupta01
+- LinkedIn: https://linkedin.com/in/muskan-gupta-551293386
+
 ---
 
-## 📜 License
+## ⭐ Support
 
-This project is created for the **CodeAlpha AI Internship**.
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it for learning and development purposes.
