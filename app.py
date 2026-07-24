@@ -113,4 +113,4 @@ if translate_btn:
             st.error("Translation failed. Please check your internet connection and try again.")
 
 st.divider()
-st.caption("Developed by Muskan Gupta | CodeAlpha AI Internship")
+st.caption("Developed by Muskan Gupta")
